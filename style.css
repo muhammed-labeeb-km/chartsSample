@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.chart{
+    color: white;
+    padding: 2rem;
+    border: solid 1px;
+    border-color: white;
+    border-radius: 1rem;
+    background-color:rgba(18, 64, 78, 0.7);
+    box-shadow: 0 0 16px rgba(0,0,0,.8);
+}
